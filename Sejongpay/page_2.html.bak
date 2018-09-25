@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+ <head>
+   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="./css/page_2.css" />
+   <script type="text/javascript" src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+
+  <title>대면결제</title>
+ <style>
+
+
+
+ </style>
+ 
+ </head>
+ <body>
+   <header>
+
+ 
+
+
+  <div id="top_menu">
+	<div id="util_menu">
+		<ul>
+			<li><a href="">네이버 포스트</a></li>
+			<li><a href="page_4.html">FAQ 메뉴</a></li>
+			<li><a href="">가맹점 관리자 사이트</a></li>
+
+		</ul>
+
+	</div>
+</div>
+
+	   <nav class="open" >
+			<div class="bg"></div>
+				<div class="nav_con">
+					<a href="main_last_2.html">로고</a>
+					<div class="btn_off">
+						<span></span>
+						<span></span>
+					</div>
+
+				<ul>
+					<li><a href="main_last_2.html" class="first">세종페이 소개</a></li>
+						<li><a href="page_1.html">비대면 결제 </a>
+								<ul class="hidden_w">
+									<li><a href="page_1.html">ARS 결제</a></li>
+									<li><a href="page_1.html">SMS 결제</a></li>
+								
+								</ul>
+							</li>
+						<li><a href="page_2.html">대면결제 </a>
+								<ul class="hidden_w">
+									<li><a href="page_2.html">카드수기 결제</a></li>
+									<li><a href="page_2.html">카드 리더기 결제</a></li>
+								</ul>
+						</li>
+						<li><a href="usage.html">활용법 </a></li>
+						<li><a href="page_3.html">제휴가맹점 </a></li>
+						<li><a href="cont.html">가맹점 문의 </a></li>
+					</ul>
+					
+					<div class="util_con">
+						<a href="">네이버포스트</a>
+						<a href="page_4.html">FAQ</a>
+						
+					</div>
+
+				</div>
+			
+		</nav>
+
+	<div id="nav_menu">	
+		
+		<h1 id="logo"><a href="#">로고</a></h1>
+		
+		
+		
+		<nav class="main_menu">
+			<ul>
+				<li><a href="main_last_2.html">세종페이 소개</a></li>
+				<li><a href="page_1.html">비대면 결제</a></li>
+				<li><a href="page_2.html">대면 결제</a></li>
+				<li><a href="usage.html">활용법</a></li>
+				<li><a href="page_3.html">제휴가맹점</a></li>
+				<li><a href="cont.html">가맹점문의</a></li>
+				
+			</ul>
+		</nav>
+
+		<div class="ham_bar">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>	
+		
+		</div>
+		
+			
+		
+	
+  </header>
+
+
+ <section>
+	<h2>대면 결제 </h2>
+	<strong>보다 안전한! 보다 편리한! <em>결제서비스</em> 세종페이</strong>
+	<div id="content">
+		
+		<ul>
+			<li class="btn_1">카드 수기 결제</li>
+			<li class="btn_2">카드 리더기 결제</li>
+		</ul>
+		
+      <!--  ARS 결제  -->
+		<div id="container_1">
+		<div class="text">
+			<p>간단한 카드 정보 입력으로</p>
+			<p>손 쉽게 카드 결제!</p>
+			<p>판매자가 카드정보를 <em>직접 입력</em>하여 결제할 수 있는 서비스입니다.</p>
+			<p>카드 수기 결제는 모바일 어플리케이션과 웹사이트에서 이용하실 수 있습니다.</p>
+
+
+		</div>
+
+		<div class="box">
+			
+				<ul>
+					<li>01<em>.</em></li>
+					<li>서비스</li>
+					<li><em>세종페이</em> 서비스를 실행합니다.</li>
+					<li><img src="./images/direct_pay_step_1.jpg" alt=""/></li>
+				</ul>
+		
+
+			<p class="arrow"><img src="./images/step_arrow.png" alt=""/></p>
+
+			
+				<ul>
+					<li>02<em>.</em></li>
+					<li>카드정보</li>
+					<li>판매자는 <em>상품정보,<br/>구매자 카드정보</em>를 입력합니다.</li>
+					<li class="img"><img src="./images/direct_pay_step_2.jpg" alt=""/></li>
+				</ul>
+	
+			
+
+			<p class="arrow"><img src="./images/step_arrow.png" alt=""/></p>
+			
+			
+			
+				<ul>
+					<li>03<em>.</em></li>
+					<li>결제완료</li>
+					<li>구매자 <em>서명</em>후 결제를 완료합니다.</li>
+					<li><img src="./images/direct_pay_step_3.jpg" alt=""/></li>
+				</ul>
+			
+		</div>
+			
+
+	</div>	
+
+
+	
+
+
+	<div id="container_2">
+		<div class="text">
+			<p>모바일 카드리더기를 통해</p>
+			<p>쉽고 빠른 세종페이 결제</p>
+			<p>판매자가 세종페이 어플리케이션에서 <span>휴대형 카드리더기</span>를 통해 결제할 수 있는 서비스입니다.</p>
+			<p>카드 리더기 결제는 <strong>모바일 어플리케이션</strong>에서 이용하실 수 있습니다.</p>
+
+
+		</div>
+
+		<div class="box">
+		
+				<ul>
+					<li>01<em>.</em></li>
+					<li>서비스</li>
+					<li><em>세종페이</em> 서비스를 실행합니다.</li>
+					<li class="img"><img src="./images/reader_pay_step_1.jpg" alt=""/></li>
+				</ul>
+			
+
+			<p class="arrow"><img src="./images/step_arrow.png" alt=""/></p>
+
+			
+				<ul>
+					<li>02<em>.</em></li>
+					<li>카드정보</li>
+					<li>판매자는 <em>상품정보,<br/>카드요청금액</em>을 점검합니다.</li>
+					<li class="img"><img src="./images/reader_pay_step_2.jpg" alt=""/></li>
+				</ul>
+			
+
+			<p class="arrow"><img src="./images/step_arrow.png" alt=""/></p>
+			
+			
+			
+				<ul>
+					<li>03<em>.</em></li>
+					<li>결제완료</li>
+					<li><em>카드리더기</em> 를 실행한 후 결제를 완료합니다.</li>
+					<li class="img"><img src="./images/reader_pay_step_3.jpg" alt=""/></li>
+				</ul>
+			
+			
+		
+
+		
+				</div>
+			</div>
+		
+	</div>
+ </section>
+
+ <!--  SMS 결제 끝  -->
+ <footer>
+	
+		<div class="uni_con">
+			<div class="footer_con">
+			<a href="" class="first_footer_con">이용약관</a>
+			<span>·</span>
+			<a href="">개인정보처리방침</a>
+			<span>·</span>
+			<a href="">이메일무단수집거부</a>
+			</div>
+		</div>
+
+		<div class="address_con">
+		<img src="./images/footer_logo.png" alt=""/>
+		<p>서울시 강동구 상일로 10길 36 (상일동) · 고객만족센터 1688-1000</p>
+		<p>COPYRIGHT&copy; 2017 SEJONG TELECOM CORPORATION. ALL RIGHTS RESERVED</p>
+		<a class="btn_footer">웹 어워드</a>
+		<a class="btn_download">세종페이 소개서 다운로드</a>
+		</div>
+
+	
+  </footer>
+	
+	<script>
+	$(function(){
+	$("#container_2").hide();
+	$(".btn_1").addClass("on");
+	$(".btn_1").click(function(){
+		$("#container_1").show();
+		$("#container_2").hide();
+		$(this).next().removeClass();
+		$(this).addClass("on");
+
+	});
+		$(".btn_2").click(function(){
+		$("#container_2").show();
+		$("#container_1").hide();
+		$(this).prev().removeClass();
+		$(this).addClass("on");
+	});
+
+	$("div.ham_bar").click(function(){
+				$("nav.open").css("display","block");
+				$("nav.open").find("div.nav_con").stop().animate({left:"20%"});
+				$("div.bg").stop().animate({opacity:"1"});
+				$("#nav_menu").css("display","none");
+			return false;
+			
+			});
+		
+			$("div.btn_off").click(function(){
+				$("nav.open").css("display","none");
+				$("div.nav_con").stop().animate({left:"100%"});
+				$("div.bg").stop().animate({opacity:"0"});
+				$("#nav_menu").css("display","block");
+				
+			return false;
+
+			});
+
+			
+		 $(window).resize(function(){
+				$(".open").css("display","none");
+				$("#nav_menu").css("display","block");
+			});
+
+
+	});
+	</script>
+
+ </body>
+</html>

@@ -1,0 +1,721 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+      <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>해창자원</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="icon" href="./img/main_logo.ico">
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+    <link href="cusstom.css" rel="stylesheet">
+    <link href="album.css" rel="stylesheet">
+  </head>
+  <style media="screen">
+  a{
+    text-decoration: none;
+  }
+  body{
+    overflow-x: hidden;
+
+    padding-bottom:0;
+  }
+  .carousel{
+        margin-top: 3rem;
+  }
+  .carousel-item{
+    height: 34rem;
+  }
+  .carousel-item > img{
+    height: 34rem;
+        width: 100%;
+  }
+  .bod_top{
+    border: 1px solid lightgreen !important;
+width: 100%;
+position: absolute;
+top:0;
+z-index: 2000;
+  }
+.main_attch{
+
+
+ background: url(./img/people-3152585_1920.jpg)no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+      padding: 6rem;
+
+
+}
+.text-muted font
+{
+  color: mediumseagreen;
+}
+.carousel-indicators .active {
+    background-color: lightgreen;
+}
+.carousel-indicators li{
+  background:white;
+}
+.navbar-brand{
+  background: url(./img/main_logo.png)no-repeat;
+  width:100px;
+  height:110px;
+  position: relative;
+  background-size:70%;
+  top:30%;
+}
+.navbar-brand span{
+  position: absolute;
+  top:35%;
+  left:5%;
+}
+.phone{
+    background:url(./img/white-phone-64.png)no-repeat;
+  width: 64px;
+  height: 64px;
+  background-size: 70%;
+float: left;
+}
+.top_call_box{
+  -webkit-transition: all .4s ease 0s;
+    -moz-transition: all .4s ease 0s;
+    -o-transition: all .4s ease 0s;
+    box-shadow: rgb(15, 82, 43) 7px 7px 25px;
+        z-index: 23000;
+}
+
+.carousel-caption {
+    bottom: 8.5rem !important;
+}
+hr{
+  max-width: 960px; margin: 5rem auto !important;
+      border-top: 1px solid mediumseagreen;
+}
+.first-slide {
+  background:url(./img/se_1.jpg)no-repeat center bottom;
+    height: 34rem;
+          width: 100%;
+          background-size: cover;
+
+}
+.second-slide{
+  background: url(./img/1889378057_08fbe21d_4018.gif)no-repeat center;
+  height: 34rem;
+        width: 100%;
+        background-size: cover;
+}
+.third-slide{
+  background: url(./img/20171107-7.jpg)no-repeat center;
+  height: 34rem;
+        width: 100%;
+        background-size: cover;
+}
+.fourth-slide{
+  background: url(./img/1286291810.jpg)no-repeat center;
+  height: 34rem;
+        width: 100%;
+        background-size: cover;
+}
+.btn:hover{
+  background: mediumseagreen;
+  border-color: inherit;
+}
+.last_section h1{color: mediumseagreen;}
+.btn-secondary {
+    color: darkslategrey;
+    background-color: #ffffff;
+    border-color: #6c757d;
+}
+.last_section h1 p{color: darkslategrey;}
+.rounded-circle {
+    border-radius: 0%!important;
+}
+/* .eco_logo{
+  background: url(./img/eco_logo.png)no-repeat;
+  width:100px;
+  height: 100px;
+} */
+.fot_hr{
+   border:1px solid green;
+    max-width: 100%;
+          margin:0 auto  !important;
+}
+.footer-text-left p{
+  text-align: left !important;
+  color:white;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size:12px;
+
+  font-weight: 500;
+}
+.menubt{
+  position: absolute;
+height: 24px;
+width: 24px;
+
+right: 30px;
+cursor: pointer;display:none;
+}
+.menubt span{
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: mediumseagreen;
+}
+.menubt span:nth-child(2){
+  margin-top: 8px;
+}
+.menubt span:nth-child(3){
+  margin-top: 16px;
+}
+div.menuDiv {
+        width: 250px;
+    height: 800px;
+    min-height: 100%;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    z-index: 1;
+    display: none;
+}
+.btn_off{
+  top: 2rem;
+    position: absolute;
+    right: 2.4rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+}
+div.btn_off span:nth-child(1) {
+    transform: rotate(-135deg);
+}
+div.btn_off span:nth-child(2) {
+    transform: rotate(135deg);
+}
+div.btn_off span {
+    position: absolute;
+    top: 0.2rem;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: mediumseagreen;
+  }
+  .xbt{
+    position: relative;
+height: 70px;
+border-bottom: 1px solid #dedede;
+  }
+  div.menuDiv > .menuTitle li > .title {
+    display: block;
+    height: 57px;
+    border-bottom: 1px solid #dedede;
+    font-size: 20px;
+    color: #000;
+    line-height: 57px;
+    text-indent: 20px;
+    font-weight: 500;
+}
+div.menuDiv > .menuTitle li > .title:hover {
+color: mediumseagreen;
+}
+.linkList{
+  position: absolute;
+margin: 0 auto;
+text-align: center;
+left: 5%;
+top: 43%;
+}
+.linkList li{color:darkslategrey}
+.linkList li a{color:darkslategrey}
+.floating_item{
+  display: none;
+}
+.card-text span{
+  display: none;
+  font-size: 12px;
+  text-align: center;
+}
+#img1{
+  display: none;
+  width: 90% !important;
+  margin: 0 auto !important;
+}
+@media all and (min-width:300px) and (max-width:800px){
+  .floating_item{
+    display: block;
+  }
+
+  .footer-text-left p:nth-child(3){
+    display: none;
+  }
+  .menubt{
+    display: block;
+  }
+  .navbar-brand{
+    background-size: 60%;
+top:38%;
+  }
+  .navbar-brand span{
+    font-size: 14px;
+  }
+  .navbar-brand span:nth-child(2){
+
+        left: 35% !important;
+  }
+  header{
+    height: 70px;
+  }
+  .navbar{
+    height: 70px;
+  }
+  .attch_text h1{
+    font-size: 1.7rem;
+  }
+  .attch_text p{
+    font-size:14.5px;
+  }
+  .carousel-caption h1{
+     font-size: 32px !important;
+  }
+  .carousel-caption h2{
+    font-size:23px;
+  }
+  .carousel-caption h3{
+    font-size:20px;
+  }
+  .carousel-caption p{
+    font-size:14px !important;
+  }
+  .carousel-caption {
+     bottom: 6.5rem !important;
+   }
+   .carousel-item div:nth-child(1){
+     background-position: 60% 60%;
+   }
+   .col-lg-4   {
+     width: 33.33333%;
+   }
+   .col-lg-4  p{
+     display: none;
+   }
+   .col-lg-4  h1{
+     font-size: 20px !important;
+   }
+   .col-lg-4 h1 > p > small{
+      display: none;
+   }.last_section{
+     margin-top: 10%;
+   }
+   .col-md-4{
+     width: 33.33333%;
+   }
+   .card-text font{
+     display: none;
+   }
+   .card-text span{
+     display: block;
+   }
+   .text-muted font{
+     display: none;
+   }
+   .btn-group{
+         /* right: 35%; */
+
+   }
+   .btn-group font{
+     font-size: 12.5px;
+   }
+  #img1{
+    display: block;
+position: relative !important;
+
+  }
+  #img2{
+    display: none !important;
+  }
+
+}
+/* media query end */
+.intro_bg{
+  padding:0 !important;
+  height: 27rem;
+  max-width: 100%;
+  background:url(./img/trash2.jpg) no-repeat center;
+
+  margin-top: 5.5rem;
+  background-size: cover;
+  /* background-position: 30% 30%; */
+}
+.intro_nav{
+  width: 100%;
+  padding: 1rem;
+    border-bottom: 1px solid gainsboro;
+}
+.intro_nav .contents{
+  max-width: 1020px;
+  margin: 0 auto;
+  font-size: 14px;
+  font-family:'Noto Sans KR', sans-serif;
+
+}
+.intro_nav .contents img{
+  width: 15px;
+  margin-right: 8px;
+  margin-left: 6px;
+}
+  </style>
+  <body>
+
+
+
+
+
+    <header >
+      <p class="bod_top" style="    border: 1px solid #2258ef; width: 100%;"></p>
+      <nav class="navbar navbar-expand-md navbar-black bg-white" style="max-width:1020px; margin: 0 auto;">
+        <a class="navbar-brand" href="index.html" ><span style="color:mediumseagreen">해창</span><span style="left:40%;">자원</span></a>
+        <div class="menubt" style="">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto" style="    margin: 0 auto; text-indent: 40px;">
+            <li class="nav-item active">
+              <a class="nav-link" href="intro.html" >회사소개 <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="trash.html">사업분야</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="mail.html" style="color:mediumseagreen;">견적문의</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="location.html">위치안내</a>
+            </li>
+
+          </ul>
+          <div class="top_call_box" style="background:mediumseagreen; border-radius: 5px;width:250px;position:relative; top:-5px; margin: 0 auto; padding:10px">
+
+            <dl style="position: relative;top: 13px;left:13px;">
+
+                  <dt style="color:white;    display: inline-block; font-weight:400;">전화상담</dt>
+                  <p class="phone"></p>
+                  <dd style="color:white; font-size:20px; font-weight:600;"><a href="" style="color:white; font-weight:600">010-5326-0351</a></dd>
+                </dl>
+          </div>
+        </div>
+      </nav>
+      <div class="menuDiv">
+			<div class="xbt">
+        <div style="    position: relative; top: 10px;"><a href="index.html"><img src="./img/main_logo.png" alt="" width="60px"><span style="color:black;"></a>해창</span></div>
+        <div class="btn_off">
+            <span></span>
+            <span></span>
+          </div></div>
+			<ul class="menuTitle" style="    margin-left: -40px;">
+				<li>
+					<a href="intro.html" class="title">회사소개 </a>
+				</li>
+				<li>
+					<a href="trash.html" class="title">사업분야 </a>
+
+				</li>
+				<li>
+  					<a href="mail.html" class="title">견적문의</a>
+				</li>
+				<li>
+					<a href="location.html" class="title">위치안내</a>
+				</li>
+			</ul>
+			<ul class="linkList" >
+        <li>고객과 행복을 꿈꾸는</li>
+        <li><span style="color:mediumseagreen">해창</span> 자원</li>
+        <li style="    line-height: 70px;"><img src="./img/eco_logo.png" alt="" width="40px"></li>
+				<li style="    line-height: 180px;"><a href="http://blog.his21.co.kr/" target="_blank">Blog | Place</a></li>
+        <!-- <li style="    line-height:-50px;"><a href="http://blog.his21.co.kr/" target="_blank">Tel : 010-5326-0351</a></li> -->
+
+			</ul>
+		</div>
+    </header>
+
+<div class="wrap" style="position:relative; z-index:1; background:white; margin-bottom:235px">
+
+  <div class="container intro_bg" style="    padding: 14rem;    ;max-width: 100%;">
+
+  </div>
+
+    <main role="main" >
+
+
+
+      <!-- Marketing messaging and featurettes
+      ================================================== -->
+      <!-- Wrap the rest of the page in another container to center all the content. -->
+
+      <div class="container marketing" style="max-width: 100%;">
+        <div class="intro_nav">
+                    <div class="contents"><img src="./img/home.png" alt="home" width="10px">home <img src="./img/right-arrow.png" alt="arrow" width="10px"> 회사소개 <img src="./img/right-arrow.png" alt="arrow" width="10px"> <span>문의하기</span></div>
+                </div>
+        <div class="album py-5 bg-light">
+          <div class="ma_intro" style="padding-bottom:3rem">
+          <h2 style="text-align:center; color:mediumseagreen"><span style="color:darkslategrey">문의하기</span></h2>
+          <p style="text-align:center;">최대한<span style="color:mediumseagreen"> 빠른</span> 시일 내로 답변드리겠습니다. </p>
+          </div>
+
+
+          <div class="container">
+
+            <div class="row">
+
+              <div class="col-lg-10" style="margin:0 auto">
+                <div class="col-lg-8 mx-auto">
+                  <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+                  <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+                  <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                    <div class="control-group">
+                      <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                        <label>이름</label>
+                        <input class="form-control" id="name" type="text" placeholder="보내는 분" required="required" data-validation-required-message="이름 을 입력해주세요.">
+                        <p class="help-block text-danger"></p>
+                      </div>
+                    </div>
+                    <div class="control-group">
+                      <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                        <label>Email</label>
+                        <input class="form-control" id="email" type="email" placeholder="이메일을 입력해주세요." required="required" data-validation-required-message="이메일 이 없다면 2@2.com을 입력해주세요." value="">
+                        <p class="help-block text-danger"></p>
+                      </div>
+                    </div>
+                    <div class="control-group">
+                      <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                        <label>연락처</label>
+                        <input class="form-control" id="phone" type="tel" placeholder="연락처" required="required" data-validation-required-message="연락처 를 입력해주세요.">
+                        <p class="help-block text-danger"></p>
+                      </div>
+                    </div>
+                    <div class="control-group">
+                      <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                        <label>문의사항</label>
+                        <textarea class="form-control" id="message" rows="5" placeholder="문의사항" required="required" data-validation-required-message="문의하실 보내실 내용을 적어주세요. !"></textarea>
+                        <p class="help-block text-danger"></p>
+                      </div>
+                    </div>
+                    <br>
+                    <div id="success"></div>
+                    <div class="form-group">
+                      <button class="btn btn-primary btn-xl" id="sendMessageButton" style="background:mediumseagreen; border-color:mediumseagreen">보내기</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              </div>
+
+
+
+
+
+
+
+
+            </div>
+          </div>
+        </div>
+    <!-- /.attachment -->
+      <!-- <hr class="featurette-divider"> -->
+
+
+
+
+<hr class="featurette-divider" style="margin:3.5rem auto !important;border-color: #fff;">
+<div class="row" style="    max-width: 1160px; margin:0 auto; text-align:center" >
+          <div class="col-lg-4"><a href="intro.html" style="display:block;width:100%;">
+            <img class="rounded-circle" src="./img/teamwork.png " alt="Generic placeholder image" width="90" height="90">
+
+            <div class="last_section" style="display:inline-block">
+            <h1 style="font-size: 25px;display: inline-block;">회사소개<p><small style="    font-size: 60%;">20년 이상 경력의 전문인력</small></p><p style="    margin-top: -13%;display: table;"><small style="    font-size: 60%;">들이 최고의 서비스를 목적</small></p>
+              <p style="    margin-top: -13%;display: table;"><small style="    font-size: 60%;">으로 상주 중인 업체입니다.</small></p></h2></a>
+            </div>
+
+              <p><a class="btn btn-secondary" href="#" role="button">바로가기</a></p>
+              <!-- <small style="font-size: 60%; display:table">전화상담도 가능합니다.</small> -->
+            <!-- <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p> -->
+            <!-- <p><a class="btn btn-secondary" href="#" role="button">바로가기 »</a></p> -->
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4"><a href="location.html" style="display:block;width:100%;">
+            <img class="rounded-circle" src="./img/magnifier.png " alt="Generic placeholder image" width="90" height="90">
+
+            <div class="last_section" style="display:inline-block">
+            <h1 style="font-size: 25px;display: inline-block;">위치안내<p><small style="    font-size: 60%;">서울시 송파구에 위치하고　　</small></p><p style="    margin-top: -13%;display: table;"><small style="    font-size: 60%;">있으며 서울 전지역 경기</small></p>
+              <p style="    margin-top: -13%;display: table;"><small style="    font-size: 60%;">의정부·구리 까지 출장합니다.</small></p></h2></a>
+            </div>
+            <p><a class="btn btn-secondary" href="#" role="button">바로가기</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4"><a href="trash.html" style="display:block;width:100%;">
+            <img class="rounded-circle" src="./img/shopping-list.png " alt="Generic placeholder image" width="90" height="90">
+            <div class="last_section" style="display:inline-block">
+            <h1 style="font-size: 25px;display: inline-block;">사업분야<p><small style="    font-size: 60%;">동·고철·비철·상가·가전 등</small></p><p style="    margin-top: -13%;display: table;"><small style="    font-size: 60%;">합리적인 비용으로 신속히</small></p>
+              <p style="    margin-top: -13%;display: table;"><small style="    font-size: 60%;">매입·철거하고 있습니다.</small></p></h2></a></div>
+            <p><a class="btn btn-secondary" href="#" role="button">바로가기</a></p>
+          </div><!-- /.col-lg-4 -->
+        </div>
+
+        <!-- START THE FEATURETTES -->
+<!--
+
+
+        <div class="row featurette" style="max-width: 960px; margin:0 auto;">
+          <div class="col-md-7" id="po" style="position: relative; right:20%;opacity: 0;">
+            <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" src="./img/m_img01.jpg" alt="Generic placeholder image">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette" style="max-width: 960px; margin:0 auto;">
+          <div class="col-md-7 order-md-2"  id="co" style="position: relative; left: 20%;opacity: 0;">
+            <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img class="featurette-image img-fluid mx-auto" src="./img/KakaoTalk_20180503_162633251.jpg" alt="Generic placeholder image">
+          </div>
+        </div>
+
+
+
+        <hr class="featurette-divider"> -->
+
+        <!-- /END THE FEATURETTES -->
+
+      </div><!-- /.container -->
+
+      <!-- <div class="scroll-to-top d-lg-none position-fixed" style="display: block;">
+            <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top" id="scroll_top">
+              <i class="fa fa-chevron-up"></i>
+            </a>
+          </div> -->
+    </main>
+    <!-- <ul class="floating_item _floating">
+    <li>
+      <a href="#" class="link_item theme_background _btnFloating" data-cid="" data-type="phone" data-data="tel:010-5326-0351" data-name="전화">
+        <span class="icon icon1"></span><span class="text">전화</span>
+      </a>
+    </li> -->
+    <!-- <li>
+      <a href="#" class="link_item top_item _btnFloating" data-type="top">
+        <span class="icon icon_top"></span><span class="text blind">top</span>
+      </a>
+    </li> -->
+  </ul>
+  </div>
+    <!-- FOOTER -->
+    <footer class="container footer-text-left" style="max-width:100%;height:auto;;     background: #031f0a; position:fixed; bottom:0; z-index:-1; padding: 3%;">
+
+    <!-- <hr class="fot_hr"> -->
+
+
+      <div class="container">
+        <p style="text-align:center">상호 : 해창 자원 | 주소 : 서울특별시 서초구 반포동 131-1 | 대표이사 : 허행오 </p>
+        <p style="text-align:center;">사업자등록번호: 131-755-456823 | TEL : 010 5326 0351 </p>
+
+<p style="text-align:center;position: absolute;top: 70%;">COPYRIGHT©㈜해창. ALL RIGHTS RESERVED.</p>
+    </div>
+    <p style="float:right; font-size:13px; margin-right:20%;color:#bcbdbc;">고객과 함께 행복한 <span style="color:mediumseagreen">해창</span> 자원<img src="./img/eco_logo.png" alt="" style="    width: 50px;;  ;"></p>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+
+
+
+    <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  <script src="./js/scroll.js"> </script>
+  <script>
+
+$(function(){
+  var menuDiv = $(".menuDiv");
+  	var menuBtn = $(".menubt");
+  	var menuClose = $(".btn_off");
+  	var black = $(".dimdBg");
+
+
+  	menuDiv.css({"right":"-320px"});
+
+  	menuBtn.click(function(){
+  		menuDiv.stop().animate({"right":"0px"});
+      menuDiv.css('display','block')
+  		black.css({"display":"block","opacity":"0"}).stop().animate({"opacity":"0.8"},300);
+      $(".navbar-brand").stop().animate({"opacity":"0"},500);
+      $('.bod_top').animate({left:"-101%"},500)
+  	});
+
+  	menuClose.click(function(){
+  		menuDiv.stop().animate({"right":"-320px"});
+  		black.hide();
+      $(".navbar-brand").stop().animate({"opacity":"1"},500);
+      $('.bod_top').stop().animate({left:"0%"},500)
+  	});
+
+  	black.click(function(){
+  		menuDiv.stop().animate({"right":"-320px"});
+  		black.hide();
+  	});
+  });
+  $(window).scroll(function() {
+
+    if ($(document).scrollTop() > 10) {
+      $(".top_call_box").stop().animate().css('padding','5px')
+      }
+    else if ($(document).scrollTop() < 10) {
+        $(".top_call_box").stop().animate().css('padding','10px')
+        }
+
+        if ($(document).scrollTop() > 1100) {
+          $("#po").animate({
+            opacity: "1",
+            right:"0%"
+          }, 1000)
+
+        }
+        if ($(document).scrollTop() > 1500) {
+          $("#co").animate({
+            opacity: "1",
+            left:"0%"
+          }, 1000)
+        }
+});
+      function test(){
+         	jQuery.scrollSpeed(150, 900);
+      }
+      $(test);
+
+  </script>
+  <script src="./js/jqBootstrapValidation.js"></script>
+  <script src="./js/contact_me.js"></script>
+  </body>
+</html>

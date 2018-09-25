@@ -1,0 +1,74 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+body{ font-family:'Noto Sans KR', dotum,'µ¸¿ò',AppleGothic,sans-serif;font-size:12px}
+h2{font-fami}
+div#header_til,div.navi{font-family:normal}
+@charset "UTF-8";
+body,div,header,h1,h2,nav,ul,li,article,section,hr,footer,address,p,em,span,tr,th,table { margin:0; padding:0; }
+.hidden { display: none; }
+ul { list-style-type: none; }
+a{text-decoration:none;}
+table ,th{border-collapse:collapse;}
+div#headerWrap { border-top: 3px solid #2258ef;}
+header { width:960px; height:72px; margin: 0 auto; }
+header h1 { width:138px; height:18px; background: url(../images/logo.gif) no-repeat; margin-top: 27px; float: left; text-indent:-9999px; }
+header a{display:block;}
+header nav { width:500px; height:30px; margin: 20px 0 0 130px; float:left; }
+header nav li { float:left; margin-right:40px; font-size:15px; font-weight: 700; }
+header nav li:nth-child(6) { margin-right: 0px; }
+header nav a { display: block; text-decoration: none; padding: 4.8px; color: #535353; }
+header nav li:nth-child(1):hover a { color: #2258ef }
+header nav li:nth-child(2):hover a { color: #2258ef }
+header nav li:nth-child(3):hover a { color: #2258ef }
+header nav li:nth-child(4):hover a { color: #2258ef }
+header nav li:nth-child(5):hover a { color: #2258ef }
+header nav li:nth-child(6):hover a { color: #2258ef }
+header nav li:nth-child(5) a { color: #2258ef }
+
+header ul.hd_right { width:90px; height:20px; margin-top: 26px; float:right; }
+header ul.hd_right li { float: left; }
+header ul.hd_right a { width:20px; height:20px; display: block; }
+header ul.hd_right li:nth-child(1) a { color:#b2b2b2; font-size: 12px; width:20px; text-decoration: none; }
+header ul.hd_right li:nth-child(1):hover a { text-decoration: underline; }
+header ul.hd_right li:nth-child(2) { background: url(../images/facebook.jpg) no-repeat; float: left; margin-left: 26px; text-indent: -9999px; }
+header ul.hd_right li:nth-child(3) { background: url(../images/blog.jpg) no-repeat; float: right; text-indent: -9999px; }
+
+div#header_util { height: 45px; margin:0 auto; background: white; border-bottom: 1px solid gray; box-shadow:0 1px 7px rgba(0,0,0,0.19);z-index:10
+}
+
+div#header_util div { width: 960px; height: 45px; margin: 0 auto; }
+div#header_util ul { float: left; height: 45px; width: 600px; margin-left: 250px; }
+div#header_util li { float: left; font-size: 13px; font-weight: ; text-indent:20px; margin-top:7px;}
+
+div#header_util li a { display: block; text-decoration: none; padding: 4.8px; color: #535353;}
+div#header_util li:hover a { color: #2258ef }
+div#header_util li:nth-child(3) a{ color: #2258ef }
+
+div.navi {width:960px; height:93px; margin: 0 auto ;}
+div.navi > div#navi_contents h1{width:338px; height:46px; 
+                                background:url(../images/about_company_title_20170718.png)no-repeat;  margin-top:60px;position:relative; top:10px;}
+div.navi > div#navi_contents p{padding:10px; margin-right:10px; float:left; font-size:11px; margin-top:15px; color: rgb(136, 136, 136);}
+
+section{width:960px; height:384px; background:white; margin:0 auto;}
+h2 p{color:#323232; font-size:28px; font-weight:300; line-height:37px;}
+table{border:1px solid; width:960px; height:100px; margin-top:90px;
+	  border-left:0px; border-right:0px; border-top:3px solid #4e4e4e; border-bottom:1px solid lightgray; }
+table caption{margin-right:950px; position:relative; bottom:10px;}
+th{height:40px; }
+table td{text-align:center; height:40px;}
+table #top{border-bottom:1px solid lightgray; width:960px; }
+table #top1{border-bottom:1px solid lightgray; width:960px; }
+table #top1{background:#f4f4f4; height:50px;}
+
+
+
+
+footer { width:960px; height:97px;  margin: 0 auto; background:white; border-top:1px solid lightgray;}
+footer div { width:600px; height:97px; float:left; }
+ul.footer_right { float:right; }
+footer address { font-style: normal; font-size: 11px; color: #908f8f; padding-top: 10px; }
+footer address strong { color: #686868; }
+footer span { font-size: 11px; color: #bbb; padding-top: 10px; }
+ul.footer_right li { float:left; padding: 0 7px; background:url(../images/footer_navi_bar.gif) no-repeat left 8px; margin-top: 10px; }
+ul.footer_right li:nth-child(1) { background: none; }
+ul.footer_right li a { text-decoration: none; font-size: 12px; color: #515050; font-weight: 800; }
+ul.footer_right li a:hover { text-decoration: underline;}

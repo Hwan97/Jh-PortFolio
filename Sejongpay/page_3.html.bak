@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+ <head>
+   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="./css/page_3.css" />
+  <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+
+  <script src=".js"></script>
+  <title>제휴가맹점</title>
+ <style>
+	
+
+ </style>
+ 
+ </head>
+ <body>
+   <header>
+
+ 
+
+
+  <div id="top_menu">
+	<div id="util_menu">
+		<ul>
+			<li><a href="">네이버 포스트</a></li>
+			<li><a href="page_4.html">FAQ 메뉴</a></li>
+			<li><a href="">가맹점 관리자 사이트</a></li>
+
+		</ul>
+
+	</div>
+</div>
+
+	   <nav class="open" >
+			<div class="bg"></div>
+				<div class="nav_con">
+					<a href="main_last_2.html">로고</a>
+					<div class="btn_off">
+						<span></span>
+						<span></span>
+					</div>
+
+				<ul>
+					<li><a href="main_last_2.html" class="first">세종페이 소개</a></li>
+						<li><a href="page_1.html">비대면 결제 </a>
+								<ul class="hidden_w">
+									<li><a href="page_1.html">ARS 결제</a></li>
+									<li><a href="page_1.html">SMS 결제</a></li>
+								
+								</ul>
+							</li>
+						<li><a href="page_2.html">대면결제 </a>
+								<ul class="hidden_w">
+									<li><a href="page_2.html">카드수기 결제</a></li>
+									<li><a href="page_2.html">카드 리더기 결제</a></li>
+								</ul>
+						</li>
+						<li><a href="usage.html">활용법 </a></li>
+						<li><a href="page_3.html">제휴가맹점 </a></li>
+						<li><a href="cont.html">가맹점 문의 </a></li>
+					</ul>
+					
+					<div class="util_con">
+						<a href="">네이버포스트</a>
+						<a href="page_4.html">FAQ</a>
+						
+					</div>
+
+				</div>
+			
+		</nav>
+
+	<div id="nav_menu">	
+		
+		<h1 id="logo"><a href="main_last_2.html">로고</a></h1>
+		
+		
+		
+		<nav class="main_menu">
+			<ul>
+				<li><a href="main_last_2.html">세종페이 소개</a></li>
+				<li><a href="page_1.html">비대면 결제</a></li>
+				<li><a href="page_2.html">대면 결제</a></li>
+				<li><a href="usage.html">활용법</a></li>
+				<li><a href="page_3.html">제휴가맹점</a></li>
+				<li><a href="cont.html">가맹점문의</a></li>
+				
+			</ul>
+		</nav>
+
+		<div class="ham_bar">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>	
+		
+		</div>
+		
+			
+		
+	
+  </header>
+
+
+ <section>
+	<h2>제휴가맹점 </h2>
+	<strong>세종페이로 <em>더 편리한 세상</em>을 만나보세요. 많은 사업장에서 세종페이를 준비하고 있습니다.</strong>
+	<div id="content">
+		
+		<div class="text">
+			<img src="./images/logo_b.png" alt=""/>
+			추천업종
+		</div>
+				
+		<div class="box">
+			<ul>
+				<li><span>O2O 서비스</span></li>
+				<li><span>전화주문</span></li>
+				<li><span>숙박업</span></li>
+				<li><span>유통사업자</span></li>
+				<li><span>모바일커머스</span></li>
+				<li><span>방문판매</span></li>
+				<li><span>리조트</span></li>
+				<li><span>영업사원</span></li>
+				<li><span>온라인 쇼핑몰</span></li>
+				<li><span>중고거래</span></li>
+				<li><span>여행사</span></li>
+				<li><span>배달업</span></li>
+				<li><span>통신판매업</span></li>
+				<li><span>직거래 판매</span></li>
+				<li><span>교육업</span></li>
+				<li><span>대리운전</span></li>
+			</ul>
+		
+		</div>
+		</div>
+			
+ </section>
+
+
+
+ <footer>
+	
+		<div class="uni_con">
+			<div class="footer_con">
+			<a href="">이용약관</a>
+			<span>·</span>
+			<a href="">개인정보처리방침</a>
+			<span>·</span>
+			<a href="">이메일무단수집거부</a>
+			</div>
+		</div>
+
+		<div class="address_con">
+		<img src="./images/footer_logo.png" alt=""/>
+		<p>서울시 강동구 상일로 10길 36 (상일동) · 고객만족센터 1688-1000</p>
+		<p>COPYRIGHT&copy; 2017 SEJONG TELECOM CORPORATION. ALL RIGHTS RESERVED</p>
+		<a class="btn_footer">웹 어워드</a>
+		<a class="btn_download">세종페이 소개서 다운로드</a>
+		</div>
+
+	
+  </footer>
+	<script>
+	$(function(e){
+	$("div.ham_bar").click(function(){
+				$("nav.open").css("display","block");
+				$("nav.open").find("div.nav_con").stop().animate({left:"20%"});
+				$("div.bg").stop().animate({opacity:"1"});
+				$("#nav_menu").css("display","none");
+			return false;
+			
+			});
+		
+			$("div.btn_off").click(function(){
+				
+				$("div.nav_con").stop().animate({left:"100%"});
+				$("div.bg").stop().animate({opacity:"0"});
+				$("#nav_menu").css("display","block");
+				
+			return false;
+
+			});
+
+			
+		 $(window).resize(function(){
+				$(".open").css("display","none");
+				$("#nav_menu").css("display","block");
+			});
+
+	});
+</script>
+
+ </body>
+</html>

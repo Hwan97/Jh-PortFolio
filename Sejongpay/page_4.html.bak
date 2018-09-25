@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="en">
+ <head>
+   <meta charset="UTF-8">
+ 
+  <link rel="icon" href="https://www.sejongpay.co.krimagescommonfavicon.ico" type="imagex-icon">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="./css/page_4.css" />
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+ 
+  <script src=".js"></script>
+  <title>faq메뉴</title>
+ <style>
+	
+
+ </style>
+ 
+ </head>
+ <body>
+   <header>
+
+ 
+
+
+  <div id="top_menu">
+	<div id="util_menu">
+		<ul>
+			<li><a href="">네이버 포스트</a></li>
+			<li><a href="page_4.html">FAQ 메뉴</a></li>
+			<li><a href="">가맹점 관리자 사이트</a></li>
+
+		</ul>
+
+	</div>
+</div>
+
+	   <nav class="open" >
+			<div class="bg"></div>
+				<div class="nav_con">
+					<a href="main_last_2.html">로고</a>
+					<div class="btn_off">
+						<span></span>
+						<span></span>
+					</div>
+
+				<ul>
+					<li><a href="main_last_2.html" class="first">세종페이 소개</a></li>
+						<li><a href="page_1.html">비대면 결제 </a>
+								<ul class="hidden_w">
+									<li><a href="page_1.html">ARS 결제</a></li>
+									<li><a href="page_1.html">SMS 결제</a></li>
+								
+								</ul>
+							</li>
+						<li><a href="page_2.html">대면결제 </a>
+								<ul class="hidden_w">
+									<li><a href="page_2.html">카드수기 결제</a></li>
+									<li><a href="page_2.html">카드 리더기 결제</a></li>
+								</ul>
+						</li>
+						<li><a href="usage.html">활용법 </a></li>
+						<li><a href="page_3.html">제휴가맹점 </a></li>
+						<li><a href="cont.html">가맹점 문의 </a></li>
+					</ul>
+					
+					<div class="util_con">
+						<a href="">네이버포스트</a>
+						<a href="page_4.html">FAQ</a>
+						
+					</div>
+
+				</div>
+			
+		</nav>
+
+	<div id="nav_menu">	
+		
+		<h1 id="logo"><a href="main_last_2.html">로고</a></h1>
+		
+		
+		
+		<nav class="main_menu">
+			<ul>
+				<li><a href="main_last_2.html">세종페이 소개</a></li>
+				<li><a href="page_1.html">비대면 결제</a></li>
+				<li><a href="page_2.html">대면 결제</a></li>
+				<li><a href="usage.html">활용법</a></li>
+				<li><a href="page_3.html">제휴가맹점</a></li>
+				<li><a href="cont.html">가맹점문의</a></li>
+				
+			</ul>
+		</nav>
+
+		<div class="ham_bar">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>	
+		
+		</div>
+		
+			
+		
+	
+  </header>
+ <section>
+	<h2>FAQ </h2>
+	<strong>세종페이의 자주묻는 <em>질문</em>을 모았습니다.</strong>
+	<div id="search_bar">
+		<div class="page_info">
+		 총 <em>15</em>건
+		</div>
+
+		<div class="search">
+		<form>
+		<input name="search_text" id="search_text" type="text" placeholder="검색어를 입력하세요"/>
+		<a class="search_btn" href="">검색</a>
+		</form>		
+		</div>
+	</div>
+	<div id="content">
+		
+		<div class="box">
+		<ul>
+		<li>
+			<dl>
+				<dt>
+				<span class="q">Q.</span>
+			
+				<span class="text">세종페이는 무엇인가요?</span>
+				</dt>
+				<dd>
+				판매자를 위한 간편 결제 서비스! 세종페이입니다.<br/>
+				<br/>
+
+				세종페이는 카드결제기 없이도, 별도의 결제 프로그램 설치 없이도 언제 어디서나 편리하게 이용할 수 있는 판매자를 위한 간편결제 서비스입니다.<br/>
+				고객과 대면 상태는 물론, 비대면 상태에서도 모두 이용이 가능한 온오프라인 통합결제솔루션으로 WEB이나, 모바일 APP, API를 통해 이용할 수 있습니다.<br/>
+				<br/>
+				감사합니다.
+				</dd>
+				</dl></li>
+				
+				<li><dl>
+				<dt>
+				<span class="q">Q.</span>
+				<span class="text">어떤 가맹점이 이용을 하나요?</span>
+				</dt>
+				<dd>
+				판매자를 위한 간편 결제 서비스! 세종페이입니다.
+				<br/>
+				<br/>
+
+				세종페이는 많은 사업장에서 다양하게 이용하고 있습니다.<br/>
+				영업사원, 유통사업자, 통신판매업, 모바일커머스, O2O서비스, 전화주문, 방문판매, 배달업, 여행사, 숙박업(호텔, 리조트 등), 관공서 등에서 다양하게 제공되고 있습니다.<br/><br/>
+
+				감사합니다.
+				</dd>
+				</dl></li>
+				
+				<li><dl>
+				<dt>
+				<span class="q">Q.</span>
+				<span class="text">가맹점 계약 절차는 어떻게 되나요?</span>
+				</dt>
+				<dd>
+				판매자를 위한 간편 결제 서비스! 세종페이입니다.
+				<br/>
+				<br/>
+
+				가맹점 문의를 주시면 담당 영업사원을 지정하여 안내해드립니다.<br/>
+				담당 영업사원과 세종페이 이용방법 및 이용조건(기본료, 결제수수료율 등)에 대해 사전 협의 후 계약체결 하시면 됩니다.
+				<br/>
+				<br/>
+				세종페이 신청서 및 준비서류는 아래와 같습니다.
+				<br/>
+				- 세종페이 이용신청서<br/>
+				- 전자전자지급결제대행사(PG) 계약서<br/>
+				- 보증보험 증권<br/>
+			
+				<br/>
+				보다 자세한 사항은 담당 영업사원을 통해 설명해드리도록 하겠습니다.
+				<br/>
+				<br/>
+				감사합니다.
+
+				</dd>
+				</dl></li>
+
+				<li><dl>
+				<dt>
+				<span class="q">Q.</span>
+				<span class="text">계약서 첨부서류는 어떻게 되나요?</span>
+				</dt>
+				<dd>
+				판매자를 위한 간편 결제 서비스! 세종페이입니다.
+				<br/>
+				<br/>
+
+				* 법인사업자<br/>
+				- 사업자등록증 1부<br/>
+				- 법인등기부등본 1부 (최근 3개월이내 발급분)<br/>
+				- 법인인감증명서 1부 (최근 3개월이내 발급분)<br/>
+				- (정산금 입금용) 통장사본(사업자 명의) 1부<br/>
+				<br/>
+				<br/>
+				* 개인사업자<br/>
+				- 사업자등록증 1부<br/>
+				- 대표자 개인인감증명서 1부 (3개월이내 발급분)<br/>
+				- 대표자 신분증(주민번호 뒷자리 마스킹) 사본 1부<br/>
+				- (정산금 입금용) 통장사본(사업자 명의) 1부<br/>
+				<br/>
+				<br/>
+				* 공공기관<br/>
+				- 고유번호증 사본 1부<br/>
+				- 대표자 신분증(주민번호 뒷자리 마스킹) 사본 1부<br/>
+				- 인장확인서 원본 1부 (최근 3개월이내 발급분)<br/>
+				- (정산금 입금용) 통장사본(기관명의) 1부<br/>
+				<br/>
+				<br/>
+				감사합니다.
+				</dd>
+				</dl></li>
+				
+				<li><dl>
+				<dt>
+				<span class="q">Q.</span>
+				<span class="text">보증보험증권은 어디서 발급받아야 하나요?</span>
+				</dt>
+				<dd>
+				판매자를 위한 간편 결제 서비스! 세종페이입니다.
+				<br/>
+				<br/>
+
+				* 보험증권발급 : (주)인슈게이트 (SGI서울보증 대리점)
+				<br/>
+				<br/>
+				주소 : 서울특별시 강남구 테헤란로 137, 9층<br/>
+				☎02-2051-2114, 2116 / FAX : 02-2051-2115<br/>
+				<br/>
+				<br/>
+				감사합니다.
+				</dd>
+				</dl></li>
+
+				<li><dl>
+				<dt>
+				<span class="q">Q.</span>
+				<span class="text">초기등록비, 월기본료는 무엇인가요?</span>
+				</dt>
+				<dd>
+				판매자를 위한 간편결제 서비스! 세종페이입니다.
+				<br/>
+				<br/>
+				■ 초기 등록비 : 20만원 (부가세 별도)<br/>
+				- 세종페이 신규 가맹점은 카드사 개통에 따른 초기 등록비를 최초 1회 납부해야 합니다.
+				<br/>
+				<br/>
+
+				■ 월 기본료 : 9,000 원 (부가세 별도) [ARS 동시접속1채널 기준]<br/>
+				- 세종페이 APP/WEB 유지보수, 결제문자 발송비, ARS 결제용 가상번호 사용료, ARS 접속회선 사용료(1채널 기준)에 따른 월 이용료입니다.<br/>
+				- 결제용 가상번호 동시 통화회선 무제한 사용시 기본료 100,000원(부가세 별도)입니다.
+				<br/>
+				<br/>
+				감사합니다.
+				</dd>
+				</dl></li>
+
+				<li><dl>
+				<dt>
+				<span class="q">Q.</span>
+				<span class="text">카드결제는 WEB과 APP에서 모두 가능한가요?</span>
+				</dt>
+				<dd>
+				판매자를 위한 간편 결제 서비스! 세종페이입니다.
+				<br/>
+				<br/>
+				세종페이를 이용하는 가맹점은 가맹점 관리자 WEB사이트와 모바일 APP을 제공해드립니다.<br/>
+				담당영업사원이 전달해준 로그인 정보를 통해 이용이 가능하며, 가맹점 관리사 WEB사이트 및 모바일 APP을 통해 모두 카드수기결제가 가능합니다.<br/>
+				세종페이에서 제공하는 모든 서비스는 WEB과 APP에서 모두 이용이 가능합니다.<br/>
+				<br/>
+				감사합니다.
+				</dd>
+				</dl></li>
+
+				<li><dl>
+				<dt>
+				<span class="q">Q.</span>
+				<span class="text">ARS결제는 안전한가요?</span>
+				</dt>
+				<dd>
+				판매자를 위한 간편 결제 서비스! 세종페이입니다.
+				<br/>
+				<br/>
+				ARS 결제 서비스는 특허 받은 ARS점유자 인증을 도입하여 결제 보안성을 높였습니다.<br/>
+				즉, 판매자는 고객 휴대폰으로 고객별 1:1 매칭된 가상 ARS번호를 문자메시지로 전송하며, 고객은 가상 ARS번호를 접속하여 음성안내에 따라 카드정보를 직접 입력하여 결제 할 수 있습니다.<br/>
+				고객이 직접 카드정보를 입력하는 방식이므로, 카드 정보 유출 및 개인정보 보안에 효과적입니다.<br/>
+				<br/>
+				감사합니다.
+				</dd>
+				</dl></li>
+				<li><dl>
+				<dt>
+				<span class="q">Q.</span>
+				<span class="text">판매자 시스템과 연동이 가능한가요?</span>
+				</dt>
+				<dd>
+				판매자를 위한 간편 결제 서비스! 세종페이입니다.
+				<br/>
+				<br/>
+				세종페이는 판매자가 원하시면 판매자 프로그램(시스템)과 연동할 수 있습니다.<br/>
+				외부 연동을 위한 개별 API도 준비되어 있으니 필요한 고객분은 담당 영업사원에게 문의해주시기 바랍니다.<br/>
+				<br/>
+				감사합니다.
+				</dd>
+				</dl></li>
+				
+				
+				<li><dl>
+				<dt>
+				<span class="q">Q.</span>
+				<span class="text">판매대금 정산일은 언제인가요?</span>
+				</dt>
+				<dd>
+				판매자를 위한 간편 결제 서비스! 세종페이입니다.
+				<br/>
+				<br/>
+				세종페이는 카드 결제 후 영업일 기준 5일~7일에 정산됩니다.<br/>
+				영업일 기준이므로, 휴일이 있는 날은 해당 일수 만큼 정산일이 미뤄집니다.<br/>
+				<br/>
+				감사합니다.
+				</dd>
+				</dl></li>
+
+				</ul>
+
+			<div class="list_page">
+				<span class="btn_on"><a href="./page_4.html">1</a></span>
+				<span><a href="./page_5.html">2</a></span>
+
+			</div>
+		</div>
+		</div>
+			
+ </section>
+
+
+ <footer>
+	
+		<div class="uni_con">
+			<div class="footer_con">
+			<a href="" class="first_footer_con">이용약관</a>
+			<span>·</span>
+			<a href="">개인정보처리방침</a>
+			<span>·</span>
+			<a href="">이메일무단수집거부</a>
+			</div>
+		</div>
+
+		<div class="address_con">
+		<img src="./images/footer_logo.png" alt=""/>
+		<p>서울시 강동구 상일로 10길 36 (상일동) · 고객만족센터 1688-1000</p>
+		<p>COPYRIGHT&copy; 2017 SEJONG TELECOM CORPORATION. ALL RIGHTS RESERVED</p>
+		<a class="btn_footer">웹 어워드</a>
+		<a class="btn_download">세종페이 소개서 다운로드</a>
+		</div>
+
+  </footer>
+  
+	<script>
+		$(function(e){
+			var faqList=$("div.box>ul>li");
+			
+			faqList.attr("class","off");
+
+			function onFaqList(){
+				if($(this).parents("li").hasClass("on")){
+					$(this).next("dd").stop().animate({opacity:"0"},"fast").parents("li").removeClass("on").addClass("off");
+					
+				}else{
+					faqList.attr("class","off").find("dd").css("opacity","0");
+					$(this).next("dd").stop().animate({opacity:"1"},"fast").parents("li").removeClass("off").addClass("on");
+
+				}
+			}
+			faqList.find("dt").click(onFaqList);
+			
+				
+		$("div.ham_bar").click(function(){
+				$("nav.open").css("display","block");
+				$("nav.open").find("div.nav_con").stop().animate({left:"20%"});
+				$("div.bg").stop().animate({opacity:"1"});
+				$("#nav_menu").css("display","none");
+			return false;
+			
+			});
+		
+			$("div.btn_off").click(function(){
+				
+				$("div.nav_con").stop().animate({left:"100%"});
+				$("div.bg").stop().animate({opacity:"0"});
+				$("#nav_menu").css("display","block");
+				
+			return false;
+
+			});
+
+			
+		 $(window).resize(function(){
+				$(".open").css("display","none");
+				$("#nav_menu").css("display","block");
+			});
+
+		});	
+ 
+		
+	</script>
+
+ </body>
+</html>

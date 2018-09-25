@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>SEJONG PAY</title>
+  <link rel="stylesheet" href="./css/usage.css"/>
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.min.js"></script>
+ <script type="text/javascript" src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script>
+$(document).ready(function(){
+    window.onload = function () {
+            $("#wrap  .pppp").each(function () {
+                // 개별적으로 Wheel 이벤트 적용
+                $(this).on("mousewheel DOMMouseScroll", function (e) {
+                    e.preventDefault();
+                    var delta = 0;
+                   var moveTop = null;
+                    if (!event) event = window.event;
+                    if (event.wheelDelta) {
+                        delta = event.wheelDelta / 120;
+                        if (window.opera) delta = -delta;
+                    } else if (event.detail) delta = -event.detail / 3;
+                 
+                    // 마우스휠을 위에서 아래로
+                    if (delta < 0) {
+                        if ($(this).next() != undefined) {
+                            moveTop = $(this).next().offset().top-100;
+                        }
+                    // 마우스휠을 아래에서 위로
+                    } else {
+                        if ($(this).prev() != undefined) {
+                            moveTop = $(this).prev().offset().top-100 ;
+console.log(moveTop)                        }
+                    }
+                    // 화면 이동 0.8초(800)
+                    $("html,body").stop().animate({
+                        scrollTop: moveTop + 'px'
+                    }, {
+                        duration: 500, complete: function () {
+                        }
+                    });
+                });
+            });
+        }
+
+
+	
+		$("div.ham_bar").click(function(){
+				$("nav.open").css("display","block");
+				$("nav.open").find("div.nav_con").stop().animate({left:"20%"});
+				$("div.bg").stop().animate({opacity:"1"});
+				$("#nav_menu").css("display","none");
+			return false;
+			
+			});
+		
+			$("div.btn_off").click(function(){
+				$("nav.open").css("display","none");
+				$("div.nav_con").stop().animate({left:"100%"});
+				$("div.bg").stop().animate({opacity:"0"});
+				$("#nav_menu").css("display","block");
+				
+			return false;
+
+			});
+
+			
+		 $(window).resize(function(){
+				$(".open").css("display","none");
+				$("#nav_menu").css("display","block");
+			});
+
+
+});
+</script>
+
+ </head>
+ <body>
+
+ <!-- header -->
+
+ <header>
+
+ 
+
+
+  <div id="top_menu">
+	<div id="util_menu">
+		<ul>
+			<li><a href="">네이버 포스트</a></li>
+			<li><a href="page_4.html">FAQ 메뉴</a></li>
+			<li><a href="">가맹점 관리자 사이트</a></li>
+
+		</ul>
+
+	</div>
+</div>
+
+	   <nav class="open" >
+			<div class="bg"></div>
+				<div class="nav_con">
+					<a href="main_last_2.html">로고</a>
+					<div class="btn_off">
+						<span></span>
+						<span></span>
+					</div>
+
+				<ul>
+					<li><a href="main_last_2.html" class="first">세종페이 소개</a></li>
+						<li><a href="page_1.html">비대면 결제 </a>
+								<ul class="hidden_w">
+									<li><a href="page_1.html">ARS 결제</a></li>
+									<li><a href="page_1.html">SMS 결제</a></li>
+								
+								</ul>
+							</li>
+						<li><a href="page_2.html">대면결제 </a>
+								<ul class="hidden_w">
+									<li><a href="page_2.html">카드수기 결제</a></li>
+									<li><a href="page_2.html">카드 리더기 결제</a></li>
+								</ul>
+						</li>
+						<li><a href="usage.html">활용법 </a></li>
+						<li><a href="page_3.html">제휴가맹점 </a></li>
+						<li><a href="cont.html">가맹점 문의 </a></li>
+					</ul>
+					
+					<div class="util_con">
+						<a href="">네이버포스트</a>
+						<a href="page_4.html">FAQ</a>
+						
+					</div>
+
+				</div>
+			
+		</nav>
+
+	<div id="nav_menu">	
+		
+		<h1 id="logo"><a href="main_last_2.html">로고</a></h1>
+		
+		
+		
+		<nav class="main_menu">
+			<ul>
+				<li><a href="main_last_2.html">세종페이 소개</a></li>
+				<li><a href="page_1.html">비대면 결제</a></li>
+				<li><a href="page_2.html">대면 결제</a></li>
+				<li><a href="usage.html">활용법</a></li>
+				<li><a href="page_3.html">제휴가맹점</a></li>
+				<li><a href="cont.html">가맹점문의</a></li>
+				
+			</ul>
+		</nav>
+
+		<div class="ham_bar">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>	
+		
+		</div>
+		
+			
+		
+	
+  </header>
+
+<!-- content -->
+ <div id="wrap">
+
+  <div class="content_con">
+
+  <div class="pppp">
+  <div class="box1">
+  <div class="title_con">
+   <h1>활용법</h1>
+   <p>세종페이의 <span>편리함</span>을 이럴 때 사용해보세요.</p>
+  </div>
+  </div>
+  </div>
+
+
+
+
+<div class="pppp">
+  <div class="box1">
+  <div class="page1">
+   <div class="tit_top_1">
+	<p>01<span>.</span></p>
+	<p>카드 단말기가 없는 상황에서 결제를 받아야 할 때,</p>
+	<p><span>세종페이로 손 안에서 간편결제</span></p>
+	<a href="javascript:;" onclick="videoPopup1();">동영상으로 확인하기</a>
+
+	<div class="view_w"><img src="images/usage_1_w.jpg"></div>
+	<div class="view_m">
+	<img src="images/usage_1_m.jpg">
+	</div>
+
+   </div>
+   </div>
+   </div>
+ </div>
+
+
+
+ <div class="pppp">
+  <div class="box1">
+  <div class="page2">
+   <div class="tit_top_2">
+	<p>02<span>.</span></p>
+	<p>원거리 고객에게 결제를 받아야 할 때,</p>
+	<p><span>매장 방문없이 세종페이ARS 결제요청으로</span></p>
+	<p><span><strong>초간단 간편결제</strong></span></p>
+	<a href="javascript:;" onclick="videoPopup1();">동영상으로 확인하기</a>
+	
+		<div class="view_w">
+		<img src="images/usage_2_w.jpg">
+		</div>
+
+	<div class="view_m">
+	<img src="images/usage_2_m.jpg">
+    </div>
+
+	</div>
+   </div>
+   </div>
+</div>
+
+
+
+
+
+<div class="pppp">
+  <div class="box1">
+     <div class="page3">
+   <div class="tit_top_3">
+	<p>03<span>.</span></p>
+	<p>인터넷 (온라인, 모바일) 고객에게 결제를 받아야 할 때,</p>
+	<p><span>반복되는 복잡한 결제 프로그램 설치없이 ARS 결제요청으로<strong>초고속 간편결제</strong></span></p>
+
+	<a href="javascript:;" onclick="videoPopup1();">동영상으로 확인하기</a>
+
+	
+	<div class="view_w">
+	<img src="images/usage_3_w.jpg">
+	</div>
+
+	<div class="view_m">
+	<img src="images/usage_3_m.jpg"> 
+	</div>
+
+	</div>
+   </div>
+   </div>
+   </div>
+
+
+
+
+   <div class="pppp">
+     <div class="box1">
+  <div class="page4">
+   <div class="tit_top_4">
+	<p>04<span>.</span></p>
+	<p>판매자 시스템에서 결제문자를 직접 전송해야할 때,</p>
+	<p><span>판매자 프로그램과 세종페이 연동으로</span></p>
+	<p><span>상품안내 문자와 ARS결제 요청문자를 클릭 한 번에 해결</span></p>
+
+		<div class="view_w">
+		<img src="images/usage_4_w.jpg">
+		</div>
+
+	<div class="view_m">
+	<img src="images/usage_4_m.jpg">
+	</div>
+
+	</div>
+	</div>
+
+   </div>
+ </div>
+ 
+ <!-- Footer -->
+
+<div class="pppp" >
+<footer>
+<div class="uni_con">
+<div class="footer_con">
+	<a href="" class="first_footer_con">이용약관</a>
+	<span>·</span>
+	<a href="">개인정보처리방침</a>
+	<span>·</span>
+	<a href="">이메일무단수집거부</a>
+</div>
+</div>
+
+<div class="btn_con">
+<div class="btn_con_1">
+<div class="address_con">
+		<img src="./images/footer_logo.png" alt=""/>
+		<p>서울시 강동구 상일로 10길 36 (상일동) · 고객만족센터 1688-1000</p>
+		<p>COPYRIGHT&copy; 2017 SEJONG TELECOM CORPORATION. ALL RIGHTS RESERVED</p>
+		<a class="btn_footer">웹 어워드</a>
+		<a class="btn_download">세종페이 소개서 다운로드</a>
+</div>
+</div>
+</div>
+
+</footer>
+ </div>
+</div>
+
+
+</div>
+</body>
+
+</html>
