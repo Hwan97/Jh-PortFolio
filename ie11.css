@@ -1,0 +1,6 @@
+
+@media all and (-ms-high-contrast:none)
+{
+.fa-search-plus{   margin-top: 43px;} /* IE10 */
+*::-ms-backdrop, .fa-search-plus{   margin-top: 43px;} /* IE11 */
+}
