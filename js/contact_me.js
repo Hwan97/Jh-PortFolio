@@ -46,7 +46,7 @@ $(function() {
           $('#success').html("<div class='alert alert-danger'>");
           $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
             .append("</button>");
-          $('#success > .alert-danger').append($("<strong>").text("죄송합니다. " + firstName + ", 님, 현재 메일 서버가 응답하지 않습니다. 나중에 다시 시도해주세요."));
+          $('#success > .alert-danger').append($("<strong>").text("죄송합니다. " + firstName + ", 님, 죄송합니다. 비용문제로 메일서버 호스팅이 만료되어 Jhxxx7@gmail.com 으로 보내주세요."));
           $('#success > .alert-danger').append('</div>');
           //clear all fields
           $('#contactForm').trigger("reset");
