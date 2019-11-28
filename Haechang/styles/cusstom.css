@@ -1,0 +1,165 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+
+
+* {
+  font-family: 'Jeju Gothic', serif;
+}
+a{
+  text-decoration: none !important;
+}
+ul{
+  list-style: none;
+}
+body{
+  padding-top: 0;
+  padding-bottom:0;
+}
+
+h1 {
+  font-family: 'Hanna';
+}
+
+.navbar{
+  padding-top:1rem;
+  height: 88px;
+
+}
+.navbar a{
+  color: black;
+  font-weight: 400;
+  font-size:18px;
+}
+.navbar a:hover{
+  color: mediumseagreen
+
+}
+header{
+  /* padding-top: 0.7%;
+padding-bottom: 1%; */
+height: 90px;
+  position: fixed;
+    top: 0;
+    z-index: 1000;
+    background: white;
+    width: 100%;
+    /* border-top: 1px solid lightgreen; */
+}
+footer p+a{
+  color:white;
+  font-weight: 600;
+}.floating_item {
+  position: fixed;
+  right: 40px;
+bottom: 105px;
+  z-index: 100;
+  text-align: right
+}
+.container{
+  padding-right: 10px;
+ padding-left: 10px;
+}
+
+.floating_item li+li {
+  margin-top: 10px
+}
+
+.floating_item .link_item {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  background-color: #fff;
+  text-align: center;
+  -webkit-box-shadow: 3px 4px 10px 2px rgba(0, 0, 0, .2);
+  box-shadow: 3px 4px 10px 2px rgba(0, 0, 0, .2);
+  -webkit-transition: .2s ease-out;
+  transition: .2s ease-out;
+  -webkit-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  /* transform-origin:0 100%; */
+}
+
+.floating_item .link_item:hover {
+  width: auto;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  padding: 0 25px
+}
+
+.floating_item .link_item:hover .text {
+  display: inline-block;
+  opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
+}
+
+.floating_item .link_item .icon {
+  display: inline-block;
+  height: 60px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  font-size: 26px;
+  line-height: 60px;
+  color: #fff;
+  background: url(../img/white-phone-64.png)no-repeat center;
+  width: 64px;
+  height: 55px;
+  background-size: 50%;
+  /* background: mediumseagreen; */
+}
+
+.floating_item .link_item .text {
+  display: none;
+  margin-left: 10px;
+  font-size: 20px;
+  vertical-align: top;
+  line-height: 60px;
+  color: #fff;
+  white-space: nowrap;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+.floating_item .link_item .nicon_more2 {
+  color: #000
+}
+
+.floating_item .link_item .icon_top {
+  overflow: hidden;
+  background-image: url(.../img/sp_pc_16a0bb.png);
+  width: 31px;
+  height: 26px;
+  background-position: -155px -508px;
+  display: inline-block;
+  margin-top: 15px;
+  -webkit-border-radius: 0;
+  border-radius: 0
+}
+
+.floating_item .moere_item:hover, .floating_item .top_item:hover {
+  width: 60px;
+  padding: 0
+}
+
+.floating_item .num {
+  margin-left: 3px;
+  font-size: 13px
+}.theme_background {
+    background-color: mediumseagreen !important;
+}
+@media all and (min-width:300px) and (max-width:800px){
+.intro_bg{
+margin-top: 4.5rem !important;
+
+  height: 18rem !important;
+}
+.wrap{
+  margin-bottom: 200px !important;
+}
+
+}
